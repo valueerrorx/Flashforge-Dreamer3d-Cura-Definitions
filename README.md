@@ -2,7 +2,7 @@
 Ultimaker Cura definitions for Flashforge Dreamer3d 
 
 
-This dreamer3d.def.json works for 1 extruder only
+This dreamer3d.def.json works for 1 extruder only.
 The moment you add a second extruder Cura adds a line with the gcode
 ```
 TO
@@ -11,7 +11,7 @@ right before your own startcode and Dreamer3d refuses to load the whole file.
 
 
 
-For now this startcode should works fine with 2 extruders if you open the gcode file and remove the lines between
+For now this definition should works fine with 2 extruders if you open the gcode file and remove the T0 entry between
 ```
 ;Generated with Cura_SteamEngine 4.4.1
 ```
