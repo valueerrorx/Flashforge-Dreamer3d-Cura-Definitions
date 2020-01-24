@@ -11,7 +11,7 @@ right before your own startcode and Dreamer3d refuses to load the whole file.
 
 
 
-For now this definition should works fine with 2 extruders if you open the gcode file and remove the T0 entry between
+For now this definition kinda works with 2 extruders if you open the gcode file and remove the T0 entry between
 ```
 ;Generated with Cura_SteamEngine 4.4.1
 ```
@@ -19,7 +19,7 @@ and
 ```
 M82 ;absolute extrusion mode
 ```
-
+but it will print both objects with the same extruder nevertheless
 
 see discussion: https://github.com/Toylerrr/Flashforge-for-Cura/issues/5
 
